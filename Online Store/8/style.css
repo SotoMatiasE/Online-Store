@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.mobile-menu {
+    padding: 24px;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+   
+}
+
+.mobile-menu ul {
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+}
+
+.mobile-menu ul li {
+    margin-bottom: 24px;
+}
+
+.email {
+    font-size: 14px;
+    font-weight: 300 !important;
+}
+
+.mobile-menu  ul:nth-child(1) {
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.sing-out {
+    color: #ACD9B2 !important;
+    font-size: 14px;
+}
+
+.mobile-menu ul:last-child {
+    position: absolute;
+    bottom: 0;
+}
